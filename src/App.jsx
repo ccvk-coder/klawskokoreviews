@@ -33,7 +33,7 @@ export function App() {
             Klaws by Koko
           </h1>
 
-          <p className="mx-auto mb-6 mt-2 max-w-[24rem] text-[1.0625rem] leading-normal text-muted">
+          <p className="mx-auto mb-6 mt-2 max-w-[24rem] text-[0.9375rem] leading-normal text-muted">
             Thanks for visiting Klaws by Koko! We’d love to hear from you and stay
             connected.
           </p>
