@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node -e \"const fs=require('fs'); fs.copyFileSync('dist/index.html', 'public/index.html'); fs.cpSync('dist/assets', 'public/assets', {recursive: true});\"",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview"
   },
