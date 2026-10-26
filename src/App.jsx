@@ -35,7 +35,7 @@ export function App() {
 
           <p className="mx-auto mb-6 mt-2 max-w-[24rem] text-sm leading-normal text-muted">
             Thanks for visiting Klaws by Koko! We’d love to hear from you and stay
-            connected.
+            connected
           </p>
 
           <div className="flex flex-col gap-[0.8rem]">
